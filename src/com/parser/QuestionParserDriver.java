@@ -14,6 +14,7 @@ public class QuestionParserDriver {
                 
         	try {
         		
+        		System.out.println("Please input path and filename:");
         		Scanner scanner = new Scanner(System.in);
         		String initialPath = scanner.nextLine();
         		scanner.close();
